@@ -1,0 +1,77 @@
+.title{
+    font-size: 25px;
+    font-weight: 500;
+    border-bottom: 5px solid orange;
+    width: 40%;
+    margin: 1% 0 4% 2%;
+}
+
+.main_img{
+    width: 80%;
+    margin: 0 10% 0 10%;
+    height: 270px;
+}
+
+.about{
+    font-size: 16px;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+}
+
+@media (max-width: 767px){
+    .about{
+        padding-top: 50px;
+    }
+}
+
+.business_container{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../../../assets/images/contact_background.jpg);
+    margin: 5%;
+    padding: 5%;
+    color: wheat;
+}
+
+.business_header{
+    font-size: 30px;
+    font-weight: 700;
+    border-bottom: 4px double grey;
+    position: relative;
+    display: flex;
+    width: 40%;
+    padding-bottom: 10px;
+}
+
+.business_content{
+    margin: 2% 2% 0% 2%;
+    font-size: 17px;
+}
+
+.business_title{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.info_container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 3% 5% 3% 5%;
+    background-color: rgb(230, 230, 230);
+}
+
+.info_header{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2%;
+}
+
+.info_content{
+    padding: 2%;
+    font-size: 17px;
+    text-align: justify;
+}
+
+.vl{
+    border-left: 1px solid rgb(196, 195, 195);
+}

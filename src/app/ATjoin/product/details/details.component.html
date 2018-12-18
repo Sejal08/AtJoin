@@ -1,0 +1,29 @@
+<div class="container-fluid row">
+    <div class="col-md-8">
+      <div *ngFor="let prod of userService.userId">
+        <div class="serv_title">{{prod.prod_name}}</div>
+          <img class="serv_img" src="{{prod.image}}" alt="Not found">
+          <div class="serv_price">Product Price: &nbsp; {{prod.prod_price}}</div>
+          <div class="serv_desp">
+              <p>
+                  {{prod.prod_info}}
+              </p>
+          </div>
+      </div>
+    </div>
+
+    <div class="col-md-4">
+        <div class="ser_container">
+          <ul class="navbar-nav nav" *ngFor="let prod of userService.userList2">
+            <li class="tab_right"><i class="icon fa fa-angle-right"></i><a (click)="changeProd(prod)" data-toggle="tab">{{prod.prod_name}}</a></li>
+            <!-- <li class="tab_right"><i class="icon fa fa-angle-right"></i><a href="#b" data-toggle="tab">Product 2</a></li>
+            <li class="tab_right"><i class="icon fa fa-angle-right"></i><a href="#c" data-toggle="tab">Product 3</a></li>
+            <li class="tab_right"><i class="icon fa fa-angle-right"></i><a href="#d" data-toggle="tab">Product 4</a></li>
+            <li class="tab_right"><i class="icon fa fa-angle-right"></i><a href="#e" data-toggle="tab">Product 5</a></li>
+            <li class="tab_right"><i class="icon fa fa-angle-right"></i><a href="#f" data-toggle="tab">Product 6</a></li> -->
+          </ul>
+        </div>
+    </div>
+</div>      
+
+

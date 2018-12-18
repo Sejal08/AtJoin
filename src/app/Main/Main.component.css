@@ -1,0 +1,196 @@
+.login_container{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 5%;
+    padding: 10px;
+}
+
+.navbar_header {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    border-bottom: 3px rgb(0, 102, 255) solid;
+    background-image: linear-gradient(white, rgb(240, 240, 240));
+    z-index: 1;
+}
+
+@media (max-width: 945px){
+    .col-md-5 > .row{
+        display: none;
+    }
+}
+
+.login_input{
+    margin: 20px;
+    width: 250px;
+}
+
+.atjoin{
+    height: 40px;
+    width: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    float: left;
+}  
+
+@media (max-width: 768px){
+    .atjoin{
+        height: 30px;
+        width: 100px;
+    }
+}
+
+.login_box{
+    margin-left: auto;
+}
+
+.input_group{
+    margin: 3px;
+}
+    
+.log_button{
+    margin: 2px 10px;
+    width: 50px;
+}
+
+.btn-primary{
+    border-radius: 10px; 
+}
+
+.error{
+    color: red;
+    margin-top: 2px;
+}
+
+.error_popup{
+    color: red;
+    margin-top: 2px;
+}
+
+.reg_container{
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+
+.reg_title{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.fb_details{
+    display: flex;
+    padding: 15px;
+}
+
+.fw{
+    height: 40px;
+}
+
+.fw1{
+    height: 55px;
+    margin-left: 10%;
+}
+
+.main_img{
+    width: 80%;
+    margin: 0% 10%;
+    height: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../../assets/images/hotel.jpg);
+}
+
+@media (max-width:768px){
+    .main_img{
+        height: 300px;
+        margin-bottom: 100px;
+    }
+}
+
+.search_container{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: relative;
+}
+
+@media (max-width:768px){
+    .search_container{
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.input-group-append{
+    margin-right: 10%;
+}
+
+.image_text{
+    text-align: center;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: white; 
+    font-size: 25px;
+}
+
+@media (max-width:768px){
+    .image_text{
+        font-size: 18px;
+        position: absolute;
+    }
+}
+
+.label_text{
+    font-size: 18px;
+    padding-top: 3px;
+}
+
+@media (max-width: 400px){
+    .label_text{
+        font-size: 15px;
+        padding-top: 3px;
+    }
+}
+
+.reg_btn{
+    color: white;
+    transition: 0.5s;
+    background-size: 200% auto;
+    border-radius: 10px;    
+    height: 45px;
+    width: 170px;
+    margin: 5%;
+    background-image: linear-gradient(to right, rgba(0, 102, 255, 0.5), rgb(0, 102, 255),  rgba(0, 102, 255, 0.5));
+}
+    
+/* .reg_btn:hover{
+    background-position: right center;
+} */
+
+.modal_popup{
+    display: none;
+}
+
+@media (max-width: 945px){
+    .modal_popup{
+        display: block;
+        margin-left: auto;
+    }
+}
+
+.modal_popup > .btn{
+    margin-left: 20px;
+}
+
+.popup{
+    display: block;
+}
+
+@media (max-width: 945px){
+    .popup{
+        display: none;
+    }
+}

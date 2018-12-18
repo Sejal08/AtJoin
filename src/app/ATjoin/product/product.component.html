@@ -1,0 +1,26 @@
+<div class="container">
+    <div class="row">
+      <div class="col-sm-3" *ngFor="let prod of userService.userList2">
+        <div class="thumbnails" (click)="viewdetails(prod)">
+          <div class="slide">
+            <div hidden>{{prod.id}}</div>
+              <img class="prod_img" src="{{prod.image}}" alt="Not found">
+              <div class="container">
+                  <div class="prod_text"><span style="font-weight: bolder">Product Name: &nbsp;</span>{{prod.prod_name}}</div>
+                  <div class="prod_text"><span style="font-weight: bolder">Product Price: &nbsp;</span>{{prod.prod_price}}</div>
+              </div>
+          </div> 
+        </div>      
+      </div>
+    </div>
+  </div>
+  
+
+<!-- 
+  <h1>Products List</h1>
+
+<ul>
+  <li *ngFor="let product of products">
+
+  </li>
+</ul> -->
